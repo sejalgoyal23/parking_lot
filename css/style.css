@@ -1,0 +1,71 @@
+*{
+    font-family: "Gilroy";
+    padding:0;
+    margin:0;
+    border:0
+}
+html,body{ 
+    background-image: url(https://images.unsplash.com/photo-1526626607369-f89fe1ed77a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+header{
+    background-color: black;
+	
+}
+#header-logo{
+    width:64px;
+    height:68px;
+}
+#header-msg{
+    font-size: 25px;
+    color:rgb(230, 224, 224);
+    font-family: Gilroy;
+    font-weight: 600;
+}
+.form-group{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Gilroy";
+}
+.col-6{
+    font-size: 20px;
+    font-weight: 650;
+    font-family: "Gilroy";
+    color: rgb(4, 4, 4);
+    backdrop-filter: blur(2px);
+    
+}
+.col-6 span{
+    color: aliceblue;
+}
+.text-center{
+    font-size:35px;
+    font-weight: 500;
+    color: black;
+}
+#btnOne{
+    background-color:rgb(1, 1, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background-color:white;
+    
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
